@@ -1,0 +1,81 @@
+body{
+    background-color: #eafadb;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+.ingrid{
+    color: black;
+    background-color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: .2s ;
+
+}
+.ingrid:hover{
+    background-color: rgb(63, 145, 128);
+
+}
+.registro{
+    width: 400px;
+    background: rgb(53, 179, 135);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    
+
+}
+.registro h4{
+    font-size: 22px;
+    margin-bottom: 22px;
+    color: #000;
+}
+.controls {
+    width: 100%;
+    background: rgb(53, 179, 135);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid rgb(0, 0, 0);
+    font-family: 'calibri';
+    font-size: 18px;
+}
+
+.registro p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+
+}
+.registro a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.registro a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+::placeholder { color: rgb(49, 55, 62); }
+
+.registro .ingrid{
+    width: 100%;
+border: none;
+padding: 12px;
+color: rgb(0, 0, 0);
+margin: 16px 0;
+font-size: 16px;
+}

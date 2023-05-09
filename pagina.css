@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+body{  
+    background-color: #eafadb;
+}
+.container{
+    position: relative;
+}
+input{
+    width: 950px;
+    padding: 10px;
+    padding-right: 35px;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+    font-size: lrem;
+}
+.busq {
+    background-color: crimson;
+    width: 31px;
+    height: 31px;
+    padding: 10px 15px;
+    position: absolute;
+    border: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 0 5px 5px 0;
+    color: azure;
+    cursor: pointer;
+}
+button:hover {
+    background-color:darkred ;
+}
+.img {
+    width: 550px;
+    height: 350px;
+}
+.recarg{
+    text-align: center;
+
+}
+.imgmaps{
+    width: 650px;
+    height: 350px;
+}
+.ingrid{
+    color: black;
+    background-color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: .2s ;
+
+}
+.ingrid:hover{
+    background-color: rgb(53, 179, 135);
+
+}
